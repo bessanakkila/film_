@@ -1,0 +1,580 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+.container{
+   
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+/*header start*/
+
+.All{
+  background-color: black;
+}
+header{
+ 
+  justify-content: space-between; 
+  display: flex;
+ align-items: center;
+  padding: 20px;
+ 
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav ul{
+  display: flex;
+
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color:white ;
+  font-size: 15px;
+}
+
+a:hover{
+    background-color: red;
+}
+
+h4{
+    font-size: 24px;
+    color: white;
+
+   
+
+}
+
+
+span{
+    color: red;
+}
+
+ .search{
+width: 400px;
+height: 50px;
+margin-left: 50px;
+
+
+
+}
+.fa-magnifying-glass{
+  color: black;
+  margin-left: -40px;
+}
+.search:focus{
+    background-color: red;
+    
+}
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+/***********************************************************/
+.main{
+  width: 100%;
+  min-height: 100vh;
+  border: 1px solid silver;
+  background-image: url(../img/ooo.jpg);
+  background-size: cover;
+  background-position: center;
+  animation-name:photo ;
+  animation-delay:2s ;
+  animation-duration:10s ;
+  animation-iteration-count:infinite ;
+    
+}
+@keyframes photo{
+  10%{background-image:url(../img/uuuu.jpg) ;}  
+} 
+/************************************/
+.New_Moves{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.swiper {
+  width: 80%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  -webkit-box-reflect:below 1px linear-gradient(transparent , transparent , #0002 , #0004);
+}
+/**************************************/
+.details{
+  background-color: black;
+}
+h2{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.col_4{
+  flex-basis: 25%;
+  min-width: 200px;
+ 
+
+}
+.col_4 img{
+  width: 100%;
+  border: 1px solid white;
+}
+
+hr{
+  width: 205px;
+  margin-left: 500px;
+  margin-bottom: 30px;
+  
+ 
+}
+
+
+h3{
+  color: rgba(255, 0, 0, 0.644);
+  text-align: center;
+  font-size: 30px;
+  margin-top: -120px;
+ 
+
+ 
+
+}
+.col_4 p{
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+.button1
+{
+  border-radius: 10%;
+  background-color: green;
+  color: white;
+  width: 80px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 30px;
+
+  
+}
+
+.button1:hover{
+  transform:scale(1.2) ;
+}
+.button2{
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 10%;
+}
+
+.button2:hover{
+  transform:scale(1.2) ;
+}
+.statistics{
+  background-color:black;
+  border: 1px solid white;
+  
+}
+
+
+.in h5{
+  color:rgba(255, 0, 0, 0.863);
+  margin-top: 20px;
+  margin-left: 120px;
+  font-size: 25px;
+  
+}
+.in p{
+  color: white;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.col{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+
+
+}
+.f1{
+  width: 70%;
+  height: 4px;
+  background-color: white;
+  margin-left: 120px;
+
+}
+.f1a{
+  width: 90%;
+  height: 100%;/*معناه انو بياخد ارتفاع الاب*/
+  border-radius: 4px;
+  background-color:blue;
+ 
+}
+
+
+.f2{
+  width: 70%;
+  height: 4px;
+  background-color: white;
+  margin-left: 120px;
+  
+}
+.f1b{
+  width: 70%;
+  height: 100%;/*معناه انو بياخد ارتفاع الاب*/
+  border-radius: 4px;
+  background-color:blue;
+ 
+}
+
+
+.f3{
+  width: 70%;
+  height: 4px;
+  background-color: white;
+  margin-left: 120px;
+}
+.f1c{
+  width: 50%;
+  height: 100%;/*معناه انو بياخد ارتفاع الاب*/
+  border-radius: 4px;
+  background-color:blue;
+}
+
+
+.f4{
+  width: 70%;
+  height: 4px;
+  background-color: white;
+  margin-left: 120px;
+}
+.f1d{
+  width: 20%;
+  height: 100%;/*معناه انو بياخد ارتفاع الاب*/
+  border-radius: 4px;
+  background-color:blue;
+}
+.span{
+  color: rgb(0, 255, 221); 
+  font-size: 18px;
+  
+}
+
+.col-4{
+  flex-basis:25%;
+  min-width:200px ;
+
+}
+.col-4 img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.i{
+  margin-left: 300px;
+
+}
+.i:hover{
+  transform: scale(1.3);
+}
+.m {
+  margin-left: 90px;
+}
+.m:hover{
+  transform: scale(1.3);
+}
+.a {
+ 
+  margin-left:-110px;
+}
+.a:hover{
+  transform: scale(1.3);
+}
+.g{
+  margin-left:-310px;
+}
+.a:hover{
+  transform: scale(1.3);
+}
+/************************************************/
+.box{
+  background-color: black;
+}
+.col_3{
+  flex-basis: 30%;
+  min-width: 300px;
+  background-color: #fff;
+  margin: 10px;
+  border: 3px solid red;
+  cursor: pointer;
+transition: transform 0.5s;
+}
+.col_3:hover{
+transform: translateY(-10px);
+background-color: red;
+border: 3px solid white;
+}
+h6{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+.p{
+  text-align: center;
+ padding: 20px 10px 50px 10px;
+}
+.fa-lightbulb{
+  color: yellow;
+  font-size: 30px;
+  margin: 30px 0 10px 160px;
+}
+
+/*******************************************************/
+
+    /*footer*/
+    .footer{
+      background: #000;
+      color: #8a8a8a;
+      font-size: 18px;
+      padding: 60px 0 20px;
+
+  }
+  .footer p{
+      color: #8a8a8a;
+      
+  }
+  .footer h7{
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 20px;
+      
+  }
+  .footer-col_1, .footer-col_2, .footer-col_3, .footer-col_4{
+      min-width: 250px;
+      margin-bottom: 20px;
+  }
+  .footer-col_1{
+      flex-basis: 30%;
+  }
+  .footer-col_2{
+      flex: 1;
+      text-align: center;
+  }
+  .footer-col_2 i{
+      width: 180px;
+      margin-bottom: 20px;
+
+  }
+  .footer-col_3, .footer-col_4{
+      flex-basis: 12%;
+      text-align: center;
+  }
+  ul{
+      list-style-type: none;
+  }
+  .app-logo{
+      margin-top: 20px;
+  }
+  .app-logo img{
+      width: 140px;
+  }
+  .footer hr .hr{
+      border: none;
+      background: #b5b5b5;
+      height: 1px;
+      margin: 20px;
+  }
+  .copy_right{
+      text-align: center;
+  }
+  .fa-lightbulb{
+    margin: 30px 0 10px 130px;
+  }
+  .fa-film{
+    font-size: 30px;
+  }
+  .fa-audio-description{
+    font-size: 30px;
+  }
+  .fa-tv{
+    font-size: 30px;
+  }
+
+
+/**************************************************/
+
+@media only screen and (max-width:600px) {
+  h3{
+    margin-top: 0px;
+  }
+  .button1{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+
+  }
+  .button2{
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+
+  }
+ 
+  .col_4{
+    margin-top: 20px;
+  }
+  .col-4 img{
+   display: none;
+  }
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+    color: white;
+    
+}
+
+   .search{
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    
+    
+    
+    }
+    hr{
+      width: 205px;
+      margin-left: 150px;
+      margin-bottom: 30px;
+      
+     
+    }
+   
+
+
+
+
+  
+  
+
+}
+/* استهداف الأجهزة اللوحية (601px - 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background:#333 ;
+    width:100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav ul li a{
+    color: #fff;
+}
+.menu-icon{
+    display: block;
+    cursor: pointer;
+    background-color: white;
+}
+
+.col-4 img{
+  display: none;
+ }
+
+ .search{
+  width: 400px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 10px;
+  
+  
+  
+  }
+  hr{
+    width: 205px;
+    margin-left: 240px;
+    margin-bottom: 30px;
+    
+   
+  }
+  h3{
+    margin-top: 30px;
+  }
+  .button1{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+
+  }
+  .button2{
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+
+  }
+ 
+  .col_4{
+    margin-top: 20px;
+  }
+  .col-4 img{
+   display: none;
+  }
+ 
+}
+/* استهداف أجهزة الكمبيوتر المكتبية (901px فأكثر) */
+@media only screen and (min-width: 901px) {
+}

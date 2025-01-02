@@ -472,9 +472,7 @@ h6{
   .col-4 img{
    display: none;
   }
-    nav ul{
-  display: none;
-}
+
   .menu-icon{
     display: block;
     cursor: pointer;
@@ -499,7 +497,9 @@ h6{
       
      
     }
-   
+   nav ul li{
+       display:none;
+   }
 
 
 

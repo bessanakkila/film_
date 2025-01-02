@@ -448,7 +448,7 @@ h6{
 
 /**************************************************/
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:600px) {
   h3{
     margin-top: 0px;
   }
@@ -482,15 +482,16 @@ h6{
    .search{
     width: 150px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 15px;
     
     
     
     }
     hr{
-      width: 205px;
+     /* width: 205px;
       margin-left: 150px;
-      margin-bottom: 30px;
+      margin-bottom: 30px;*/
+        display:none;
       
      
     }

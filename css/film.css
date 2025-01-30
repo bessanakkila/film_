@@ -17,7 +17,7 @@
 /*header start*/
 
 .All{
-  background-color: black;
+  background-color: red;
 }
 header{
  
@@ -224,7 +224,6 @@ h3{
   color:rgba(255, 0, 0, 0.863);
   margin-top: 20px;
   margin-left: 20px;
-  background-color: red;
   font-size: 25px;
   
 }
